@@ -1,0 +1,19 @@
+{
+  "name": "ip-to-ci",
+  "version": "0.0.0",
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (https://surge.sh)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
+  "dependencies": {
+    "ip-range-check": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "should": "7.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
