@@ -1,6 +1,6 @@
 {
   "name": "ip-to-ci",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find out if an IP belongs to a CI service.",
   "repository": "surge-sh/ip-to-ci",
   "author": "Kenneth Ormandy <kenneth@surge.sh> (https://surge.sh)",
