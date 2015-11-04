@@ -22,6 +22,18 @@ ipci('54.172.141.90')   // Travis CI
 ipci('54.175.201.227')  // Wercker
 ```
 
+## Supported services
+
+- [Appveyor](http://www.appveyor.com/)
+- [Travis CI](https://travis-ci.org/)
+- [Wercker](http://wercker.com/)
+
+Services that we’d still like to figure out how to support:
+
+- [Buildkite](http://buildkite.com)
+- [CircleCI](http://circleci.com)
+- [Codeship](http://codeship.com)
+
 ## Contributing
 
 Thanks for considering contributing! Run the following commands to get started locally:
