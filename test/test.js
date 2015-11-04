@@ -1,3 +1,5 @@
+/* globals describe, it */
+
 var should = require('should')
 var ipci = require('../')
 
