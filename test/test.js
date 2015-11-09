@@ -61,6 +61,18 @@ describe('basic', function () {
       done()
     })
   })
+  it('should return Buildkite when given a single Buildkite IP', function (done) {
+    var result = ipci('54.165.103.71')
+    should.exist(result)
+    should(result).equal('Buildkite')
+    should(result).not.equal('Build Kite')
+    should(result).not.equal('54.165.103.71')
+    should(result).not.equal('Travis CI')
+    should(result).not.equal('Wercker CI')
+    should(result).not.equal('Travis CI')
+    should(result).not.equal('CircleCI')
+    done()
+  })
   it('should return the IP when it doesn’t match a CI service', function (done) {
     var result = ipci('216.202.261.151')
     should.exist(result)

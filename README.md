@@ -27,10 +27,10 @@ ipci('54.175.201.227')  // Wercker
 - [Appveyor](http://www.appveyor.com/)
 - [Travis CI](https://travis-ci.org/)
 - [Wercker](http://wercker.com/)
+- [Buildkite](http://buildkite.com)
 
 Services that we’d still like to figure out how to support:
 
-- [Buildkite](http://buildkite.com)
 - [CircleCI](http://circleci.com)
 - [Codeship](http://codeship.com)
 
@@ -52,7 +52,7 @@ npm install
 npm test
 ```
 
-We’d love to add support for [CircleCI](http://circleci.com), [Codeship](http://codeship.com), and [Buildkite](http://buildkite.com) to this module, but haven’t found a good way to do that yet. If you want to open an issue or pull request for this, we’re more than happy to discuss it. Thanks!
+We’d love to add support for [CircleCI](http://circleci.com), [Codeship](http://codeship.com), or other CI services to this module, but haven’t found a good way to do that yet. If you want to open an issue or pull request for this, we’re more than happy to discuss it. Thanks!
 
 ## License
 

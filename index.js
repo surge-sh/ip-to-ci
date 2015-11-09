@@ -10,6 +10,9 @@ module.exports = function (ip) {
   } else if (range(ip, '169.54.128.0/27') || range(ip, '169.54.128.128/27') || range(ip, '198.23.110.32/29') || range(ip, '169.54.147.96/27') || range(ip, '50.23.71.176/29') || range(ip, '50.23.78.112/29') || range(ip, '50.97.254.64/27') || range(ip, '138.91.141.243')) {
     // Via http://www.appveyor.com/docs/build-configuration#ip-addresses
     return 'Appveyor'
+  } else if (range(ip, '54.165.103.71')) {
+    // Via https://buildkite.com/docs/guides/github-enterprise
+    return 'Buildkite'
   } else {
     return ip
   }
